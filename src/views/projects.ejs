@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style/about.css">
+    <%- include('./partials/head') %>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <div class="container">
+      <div class="user-details">
+        <div class="min-img-project">
+          <img src="/images/projects/logo-project.png" alt="project-dh-image">
+        </div>
+        <div class="box-about">
+          <div>
+            <span>Nome: <strong>Procjec E-commerc</strong></span>
+            <div class="lim-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit non, adipisci architecto hic, nostrum totam optio animi, odio corrupti commodi omnis enim tempora mollitia fuga nesciunt perferendis fugiat deleniti?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container">
+      <h4>Apresentação do projeto em vídeo</h4>
+      <div class="presentation">
+        <iframe class="video-frame"  src="https://www.youtube.com" frameborder="0"  title="Youtube video player" allowfullscreen allow="autoplay; gyroscope" ></iframe>
+      </div>
+    </section>
+    <div class="text-center mb-5">
+      <a class="btn btn-light border" target="_blank" focus-row-control="" focus-type="url" href="https://codeload.github.com/williamOF/Projeto_integrador-Grupo_3/zip/refs/heads/master" tabindex="0">Download Project</a>
+    </div>
+    <%- include('partials/footer') %>
+  </body>
+</html>

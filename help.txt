@@ -1,0 +1,5 @@
+start project ss
+ -> npm start
+
+in your browser insert addres
+ href -> http://localhost:3000/browser/

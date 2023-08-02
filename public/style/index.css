@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'SedanSC';
+  src: url('/style/fonts/SedanSC-Regular.ttf');
+}
+body{
+  font-family: 'SedanSc';
+  user-select: none;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header,footer{
+  background-color: rgba(0, 0, 0,.8);
+}
+section{
+  min-height: 500px;
+  margin: 25px auto 25px auto;
+}
+/*padões de classes*/
+.c-flex{ /*centralize com direction column*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h-flex{ /*centralize na horizontal*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*butões de navegação na página*/
+.group-link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 75px;
+}
+.group-link button {
+  min-width: 120px;
+  min-height: 35px;
+  color: #ffff;
+}
+.group-link button:hover {
+  color: #ffff;
+  box-shadow: 0 0 15px #ffff;
+}
+.group-link >div{
+  display: none;
+}
+.dropdown-item {
+}
+
+.dropdown-item:active {
+  background-color: #dddd !important;
+}
+
+.copy{
+  padding: 25px;
+  text-align: center;
+  color: #ffff;
+  border-top: solid 0.1rem white;
+}

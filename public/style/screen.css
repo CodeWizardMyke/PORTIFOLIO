@@ -1,0 +1,22 @@
+@media screen and (max-width : 600px) {
+    .items{
+        margin:  25px auto 25px auto;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .group-link{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .group-link >div{
+        display: block;
+    }
+    #bt-github,#bt-linkedn,#bt-profile{
+        display: none;
+    }
+    .group-link button{
+        width: min-content;
+    }
+
+}
